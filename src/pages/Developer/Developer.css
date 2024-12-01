@@ -1,0 +1,20 @@
+.developer-container{
+    border: 0.5px solid #ffffff;
+  background-color: #ffffff;
+  margin-left: 430px;
+  margin-top: 0px;
+  width: 1250px;
+  height: 843px;
+}
+.developer-info{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 250px auto;
+    background-image: url('/developer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}

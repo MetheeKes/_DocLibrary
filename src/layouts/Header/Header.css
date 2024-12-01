@@ -1,0 +1,13 @@
+.header-container{
+    border: 1px solid #FFDACC;
+    background-color: #FFDACC;
+    margin-left: 230px;
+    width: 1450px;
+    height: 69px;
+    background-image: url('./LOGO_DMF_ENG.gif');
+    background-size: cover ; 
+    background-size: 235px 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
