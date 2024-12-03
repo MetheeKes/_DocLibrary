@@ -1,0 +1,139 @@
+.report-box{
+border: 0.5px solid #ffffff;
+background-color: #ffffff;
+margin-left: 440px;
+margin-top: 0px;
+width: 1240px;
+height: 843px;
+
+}
+
+.report-container{
+margin-left: 10px;
+margin-top: 30px;
+border: 0.5px solid #DD4512;
+background-color: #DD4512;
+height: 52px;
+width: 1230px;
+font-weight: bold;
+
+}
+
+.report-text{
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 9px;   
+    
+}
+
+.box-1 , .box-2 , .box-3{
+  margin-top: 65px;
+  padding-top: 15px;
+    
+}
+ 
+.box-1{
+  border: 0.5px solid #ffffff;
+  border-radius: 9px;
+  background-color: #f5764c;
+  padding: 15px;
+  margin-left: 45px;
+  text-align: center;
+  font-size: 15px;
+  background: linear-gradient(to bottom, #FF6B3A, #9F4A2D);
+  width: 330px;
+  height: 230px;
+
+}
+
+.box-2{
+    border: 0.5px solid #ffffff;
+    border-radius: 9px;
+    background-color: #f5764c;
+    padding: 15px;
+    margin-left: 420px;
+    margin-top: -230px;
+    text-align: center;
+    font-size: 15px;
+    background: linear-gradient(to bottom, #FF4F14, #FF845B);
+    width: 330px;
+    height: 230px;
+
+}
+
+.box-3{
+    border: 0.5px solid #ffffff;
+    border-radius: 9px;
+    background-color: #f5764c;
+    margin-left: 800px;
+    margin-top: -230px;
+    text-align: center;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #ACA6A3, #4E4B4B); 
+    width: 370px;
+    height: 230px;
+
+}
+
+.number {
+    text-align: center;
+    font-size: 95px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text {
+    text-align: right;
+}
+
+.text-2{
+    text-align: center;
+}
+
+.text-3{
+    text-align: center;
+}
+
+
+
+
+.report-card {
+    border: 0.5px solid #FFAB6B;
+    background-color: #FFAB6B;
+    padding: 20px;
+    width: 1150px;
+    height: 380px;
+    border-radius: 9px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+  }
+  
+  .report-card h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  .report-table th,
+  .report-table td {
+    
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  
+
+
+
+
+
+

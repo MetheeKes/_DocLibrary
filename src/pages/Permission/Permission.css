@@ -1,0 +1,153 @@
+.permission-container{
+    border: 0.5px solid #ffffff;
+    background-color: #ffffff;
+    margin-left: 440px;
+    margin-top: 0px;
+    width: 1240px;
+    height: 843px;
+  
+}
+  
+.permission-header {
+  background-color: #dc4512; /* สีพื้นหลังหัวข้อ */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* หัวข้ออยู่ซ้ายสุด ปุ่มอยู่ขวาสุด */
+  
+}
+
+.permission-header h2 {
+    margin: 0;
+    text-align: right;
+}
+  
+.permission-header h3 {
+    margin: 0;
+    text-align: left;
+}
+  
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+  
+.btn-success:hover {
+    background-color: #218838;
+}
+  
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 10px;
+    
+}
+  
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+  
+.table th {
+    background-color: #f8d7da;
+}
+
+/* Popup styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+.popup-content h3 {
+  margin-bottom: 20px;
+}
+
+.popup-content .form-control {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-content .permissions {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.permissions h4 {
+  margin-bottom: 10px;
+}
+
+.form-check {
+  margin-bottom: 5px;
+  
+}
+
+.clickable-name {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.clickable-name:hover {
+  color: darkblue;
+}
+
+input[type="checkbox"] {
+  width: 20px; /* ปรับขนาดความกว้าง */
+  height: 20px; /* ปรับขนาดความสูง */
+  cursor: pointer; /* เพิ่ม cursor เพื่อให้ดูเป็นปุ่มคลิก */
+}
+
+input[type="checkbox"]:checked {
+  background-color: #218838; /* สีพื้นหลังเมื่อเลือก */
+  border-color: #ffffff; /* สีขอบเมื่อเลือก */
+}
+
+.table th.staff-id-header {
+  background-color: #FF7243; /* สีพื้นหลัง */
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+.document-table {
+  margin-left: -1px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
